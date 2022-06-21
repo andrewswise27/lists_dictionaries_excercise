@@ -79,4 +79,15 @@ users["Erik"]["pets"][0].update(new_pet)
 print(users["Erik"]["pets"])
 # users["Erik"]["pets"].insert(0["name": "fluffy", "species": "dog"])
 # 10. Add another person to the users dictionary
+users.update({"Dwayne":{
+  "twitter": "dj5678",
+  "lottery_numbers": [1, 2, 3, 4, 5, 6],
+  "home_town": "dublin",
+  "pets": [
+    {
+      "name": "polly",
+      "species": "parrot"
+    }
+  ]
+}})
 
