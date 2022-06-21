@@ -1,6 +1,3 @@
-from webbrowser import get
-
-
 users = {
   "Jonathan": {
     "twitter": "jonnyt",
@@ -77,4 +74,9 @@ users["Erik"]["lottery_numbers"].append(7)
 # 8. Change Erik's hometown to Edinburgh
 users["Erik"]["home_town"] = "Edinburgh"
 # 9. Add a pet dog to Erik called "fluffy"
+new_pet = {"name": "fluffy", "species": "dog"}
+users["Erik"]["pets"][0].update(new_pet)
+print(users["Erik"]["pets"])
+# users["Erik"]["pets"].insert(0["name": "fluffy", "species": "dog"])
 # 10. Add another person to the users dictionary
+
